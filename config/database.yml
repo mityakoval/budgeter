@@ -7,12 +7,12 @@ default: &default
 
 development:
   <<: *default
-  database: _development
+  database: budgeter_development
 
 test:
   <<: *default
-  database: _test
+  database: budgeter_test
 
 production:
   <<: *default
-  database: _production
+  database: budgeter_production

@@ -18,6 +18,7 @@ gem 'turbolinks', '~> 5'
 gem 'materialize-sass'
 gem 'font-awesome-sass'
 gem 'font-awesome-rails'
+gem 'chart-js-rails', '~> 0.1.6'
 
 # Back-end
 

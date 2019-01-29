@@ -70,6 +70,8 @@ GEM
       capistrano (~> 3.7)
       capistrano-bundler
       puma (~> 3.4)
+    chart-js-rails (0.1.6)
+      railties (> 3.1)
     coderay (1.1.2)
     concurrent-ruby (1.1.4)
     crass (1.0.4)
@@ -292,6 +294,7 @@ DEPENDENCIES
   capistrano-rails
   capistrano-rvm
   capistrano3-puma
+  chart-js-rails (~> 0.1.6)
   database_cleaner
   factory_bot_rails
   faker
